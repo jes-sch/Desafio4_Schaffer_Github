@@ -244,41 +244,50 @@ h1{
 
 /* Comienza el footer */
 
-footer{
-    color:#1124f2;
+footer {
+    color: #1124f2;
     min-height: 50px;
     width: 100%;
     padding-top: 40px;
     text-align: center;
 }
 
-#redes{
+#redes {
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 25px;
-    padding-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #49d70b;
+    padding: 30px 0;
+    margin: 0 10px;
 }
 
-#redes a{
+#redes a {
     text-align: center;
     color: #49d70b;
     text-decoration: none;
 }
 
-footer p{
-    font-size: 14px;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#redes i {
+    font-size: 2rem;
 }
 
-#copy{
-    text-align: left;
-    margin-left: 10px;
-    margin-top: 30px;
-    padding-bottom: 15px;
+.footer__iconos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+#copy {
+    text-align: center;
+    margin: 40px 0;
     color: #1124f2;
     font-size: 16px;
 }
