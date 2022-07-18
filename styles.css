@@ -7,6 +7,7 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    background-image: linear-gradient(to left top, #1124f2, #0080ff, #00a7fa, #00c48e, #49d70b);
 }
 
 header{
